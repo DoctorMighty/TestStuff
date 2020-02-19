@@ -1,0 +1,27 @@
+//declare barn object
+var barn ={
+// Declaring properties
+  Color: "red",
+    SqrFt: 5250,
+    anmlNum: 50,
+    // declaring method
+    Repaint : function(){
+      this.Color = "blue";
+  }
+};
+
+var newBarn = barn
+
+console.log(newBarn)
+/*
+
+
+function barn (Color, sqrFt, anmlNum){
+  this.Color = Red,
+  this.sqrFt =  5250ft,
+  this.anmlNum = 50
+  
+  Paint : function(Color){
+    var color(userInput)
+   }
+  */
